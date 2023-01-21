@@ -1,6 +1,6 @@
 import xml.etree.cElementTree as ET
 
-def csv2xml(pdObj, batchId):
+def csv2xml(pdObj, sequenceId):
     root = ET.Element("ArrayOfDPScreeningRequest", 
         {"xmlns:xsd": "http://www.w3.org/2001/XMLSchema", 
          "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"})
@@ -8,7 +8,7 @@ def csv2xml(pdObj, batchId):
     ET.SubElement(dpsr, "SourceSystemID").text = "4"
     ET.SubElement(dpsr, "SourceSystemName").text = "Pixos"
 
-    ET.SubElement(dpsr, "SourceSystemBatchID").text = str(batchId)
+    ET.SubElement(dpsr, "SourceSystemBatchID").text = str(sequenceId)
     parties = ET.SubElement(dpsr, "PartiesToScreen")
 
     for index, row in pdObj.iterrows():
