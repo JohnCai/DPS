@@ -1,0 +1,7 @@
+
+ETD     ,VESSELNAME,POL,HBL                 ,SHIPPER                                           ,CNEE                                              ,NOTIFY                                            ,CUSTOMER                                          ,AGENT
+--------,----------,---,--------------------,--------------------------------------------------,--------------------------------------------------,--------------------------------------------------,--------------------------------------------------,--------
+20230115,          ,KR ,A226790KRSEL        ,JEIO TECH CO. LTD.                                ,INKARP INSTRUMENTS PVT.LTD.-HYD                   ,SAME AS CONSIGNEE                                 ,INKARP INSTRUMENTS PVT. LTD                       ,CHRHYD
+20230115,          ,KR ,A226805KRSEL        ,META BIOMED CO. LTD.                              ,HENRY SCHEIN-SCHMIDT                              ,HENRY SCHEIN ESPANA SL                            ,                                                  ,CHRFRA
+20230115,          ,KR ,A226773KRSEL        ,HANIL LUBTEC CO.  LTD.                            ,PROLUBE MARKETING CC                              ,AS ABOVE                                          ,                                                  ,MEGA02
+20230115,          ,IT ,423051642MIL        ,FAIVELEY TRANSPORT ITALIA SPA                     ,HYUNDAI ROTEM COMPANY                             ,HYUNDAI ROTEM COMPANY                             ,                                                  ,CHREUR

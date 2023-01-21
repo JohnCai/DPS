@@ -1,0 +1,7 @@
+
+ETD     ,VESSELNAME,POL,HBL                 ,SHIPPER                                           ,CNEE                                              ,NOTIFY                                            ,CUSTOMER                                          ,AGENT
+--------,----------,---,--------------------,--------------------------------------------------,--------------------------------------------------,--------------------------------------------------,--------------------------------------------------,--------
+20230117,          ,KR ,A226812KRSEL        ,SINJIN PLASTICS CO.  LTD.                         ,EXODUSDIRECT  LLC                                 ,BILLING EMAIL TO:                                 ,EXODUSDIRECT  LLC                                 ,CHRMKC
+20230117,          ,KR ,A226813KRSEL        ,INTERCOS KOREA INC.                               ,HAUS LABORATORIES                                 ,SAME AS ABOVE                                     ,HAUS LABS                                         ,CHRCHI
+20230117,          ,KR ,A226774KRSEL        ,SEMYUNG INDUSTRIAL. CO.  LTD.                     ,DANA SPICER (THAILAND) LTD.                       ,SAME AS CONSIGNEE                                 ,                                                  ,PHXBKK
+20230117,          ,US ,423326019BOS        ,MARKFORGED  INC.                                  ,HRT SYSTEM CO.  LTD                               ,HRT SYSTEM CO.  LTD                               ,                                                  ,CHRBOS

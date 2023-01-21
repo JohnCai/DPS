@@ -1,58 +1,25 @@
 import pandas as pd
-import xml.etree.cElementTree as ET
 from time import time
+from csv2xml import *
+import os
+import shutil
 
-pdObj = pd.read_csv("OCEAN-20230119.csv")
+source_dir = 'source'
+source_archive_dir = 'source_archive'
+target_dir = 'target'
+if os.path.exists(source_archive_dir) == False:
+    os.mkdir(source_archive_dir)
+if os.path.exists(target_dir) == False:
+    os.mkdir(target_dir)
 
-batchId = int(time() * 1000)
+for filename in os.listdir(source_dir):
+    f = os.path.join(source_dir, filename)
 
-root = ET.Element('ArrayOfDPScreeningRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"')
-dpsr = ET.SubElement(root, "DPScreeningRequest")
-ET.SubElement(dpsr, "SourceSystemID").text = "4"
-ET.SubElement(dpsr, "SourceSystemName").text = "Pixos"
+    pdObj = pd.read_csv(f)
 
-ET.SubElement(dpsr, "SourceSystemBatchID").text = str(batchId)
-parties = ET.SubElement(dpsr, "PartiesToScreen")
+    batchId = int(time() * 1000)
 
-for index, row in pdObj.iterrows():
-    if index == 0:
-        continue
-    party = ET.SubElement(parties, "DPPartyToScreen")
-    ET.SubElement(party, "LinkageID").text = "0"
-    ET.SubElement(party, "SourceSystemUniqueKey").text = row[3].strip() # HBL
-    ET.SubElement(party, "SourceSystemSubKey").text = "VES"
-    ET.SubElement(party, "PartyName").text = row[1].strip() # VesselName
-    ET.SubElement(party, "CountryOfExport").text = row[2].strip() # POL
-    ET.SubElement(party, "PartyCountryCode")
+    target_f = os.path.join(target_dir, "from_" + filename + "_PhoenixAsia_SHA_" + str(batchId) + "_RUN.xml")
+    csv2xml(pdObj, batchId).write(target_f, encoding= 'utf-8' ,xml_declaration= True)
 
-    party = ET.SubElement(parties, "DPPartyToScreen")
-    ET.SubElement(party, "LinkageID").text = "0"
-    ET.SubElement(party, "SourceSystemUniqueKey").text = row[3].strip() # HBL
-    ET.SubElement(party, "SourceSystemSubKey").text = "S"
-    ET.SubElement(party, "PartyName").text = row[4].strip() # Shipper
-    ET.SubElement(party, "PartyCountryCode")
-
-    party = ET.SubElement(parties, "DPPartyToScreen")
-    ET.SubElement(party, "LinkageID").text = "0"
-    ET.SubElement(party, "SourceSystemUniqueKey").text = row[3].strip() # HBL
-    ET.SubElement(party, "SourceSystemSubKey").text = "S"
-    ET.SubElement(party, "PartyName").text = row[7].strip() # Customer
-    ET.SubElement(party, "PartyCountryCode")
-
-    party = ET.SubElement(parties, "DPPartyToScreen")
-    ET.SubElement(party, "LinkageID").text = "0"
-    ET.SubElement(party, "SourceSystemUniqueKey").text = row[3].strip() # HBL
-    ET.SubElement(party, "SourceSystemSubKey").text = "C"
-    ET.SubElement(party, "PartyName").text = row[5].strip() # Consignee
-    ET.SubElement(party, "PartyCountryCode")
-
-    party = ET.SubElement(parties, "DPPartyToScreen")
-    ET.SubElement(party, "LinkageID").text = "0"
-    ET.SubElement(party, "SourceSystemUniqueKey").text = row[3].strip() # HBL
-    ET.SubElement(party, "SourceSystemSubKey").text = "N"
-    ET.SubElement(party, "PartyName").text = row[6].strip() # NotifyParty
-    ET.SubElement(party, "PartyCountryCode")
-
-
-tree = ET.ElementTree(root)
-tree.write("PhoenixAsia_SHA_" + str(batchId) + "_RUN.xml", encoding= 'utf-8' ,xml_declaration= True)
+    # shutil.move(f, source_archive_dir)

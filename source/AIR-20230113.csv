@@ -1,0 +1,7 @@
+
+ETD     ,VESSELNAME,POL,HBL                 ,SHIPPER                                           ,CNEE                                              ,NOTIFY                                            ,CUSTOMER                                          ,AGENT
+--------,----------,---,--------------------,--------------------------------------------------,--------------------------------------------------,--------------------------------------------------,--------------------------------------------------,--------
+20230113,          ,US ,422927420CHI        ,ENERPAC DIV OF ACTUANT CORPORATION                ,ACTUANT KOREA LTD                                 ,ACTUANT KOREA LTD                                 ,                                                  ,
+20230113,          ,KR ,A226756KRSEL        ,SGO CO.  LTD                                      ,WINDSOR MACHINES LIMITED                          ,SAME AS CONSIGNEE                                 ,                                                  ,CHRAMD
+20230113,          ,KR ,A226804KRSEL        ,MEDSTAR CO. LTD.                                  ,PARAMOUNT MEDICAL EQUIPMENT TRADING LLC           ,SAME AS CONSIGNEE                                 ,                                                  ,CSSUAE
+20230113,          ,US ,422110593LAX        ,HERBALIFE INTERNATIONAL                           ,HERBALIFE KOREA CO LTD                            ,HERBALIFE KOREA CO LTD                            ,                                                  ,CHRLAX

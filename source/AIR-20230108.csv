@@ -1,0 +1,7 @@
+
+ETD     ,VESSELNAME,POL,HBL                 ,SHIPPER                                           ,CNEE                                              ,NOTIFY                                            ,CUSTOMER                                          ,AGENT
+--------,----------,---,--------------------,--------------------------------------------------,--------------------------------------------------,--------------------------------------------------,--------------------------------------------------,--------
+20230108,          ,KR ,A226758KRSEL        ,KYUNGSHIN CORPORATION                             ,HONDURAS ELECTRICAL DISTRIBUTION SYSTEMS(HEDS)    ,SAME AS CONSIGNEE                                 ,KYUNGSHIN CORPORATION                             ,PHXK
+20230108,          ,KR ,A226776KRSEL        ,SNT MOTIV CO.  LTD. HEADQUARTERS                  ,BORGWARNER TORQTRANSFER SYSTEMS  INC.             ,SAME AS CONSIGNEE                                 ,BORGWARNER TORQTRANSFER SYSTEMS  INC.             ,CHRDTW
+20230108,          ,KR ,A226719KRSEL        ,REMOTE SOLUTION CO. LTD                           ,SNAP ONE                                          ,SAME AS ABOVE                                     ,                                                  ,CHRCLT
+20230108,          ,DE ,422246682HAM        ,Wallstabe & Schneider GmbH & Co                   ,METALDYNE KOREA                                   ,METALDYNE KOREA                                   ,                                                  ,CHREUR
