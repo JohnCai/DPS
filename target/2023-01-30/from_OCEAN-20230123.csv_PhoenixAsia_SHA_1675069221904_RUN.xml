@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ArrayOfDPScreeningRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <DPScreeningRequest>
+        <SourceSystemID>4</SourceSystemID>
+        <SourceSystemName>Pixos</SourceSystemName>
+        <SourceSystemBatchID>1675069221904</SourceSystemBatchID>
+        <PartiesToScreen>
+            <DPPartyToScreen>
+                <LinkageID>0</LinkageID>
+                <SourceSystemUniqueKey>SEL2301668</SourceSystemUniqueKey>
+                <SourceSystemSubKey>VES</SourceSystemSubKey>
+                <PartyName>KMTC NINGBO</PartyName>
+                <CountryOfExport>KR</CountryOfExport>
+                <PartyCountryCode> </PartyCountryCode>
+            </DPPartyToScreen>
+            <DPPartyToScreen>
+                <LinkageID>0</LinkageID>
+                <SourceSystemUniqueKey>SEL2301668</SourceSystemUniqueKey>
+                <SourceSystemSubKey>S</SourceSystemSubKey>
+                <PartyName>PILS CO. LTD.</PartyName>
+                <PartyCountryCode> </PartyCountryCode>
+            </DPPartyToScreen>
+            <DPPartyToScreen>
+                <LinkageID>0</LinkageID>
+                <SourceSystemUniqueKey>SEL2301668</SourceSystemUniqueKey>
+                <SourceSystemSubKey>S</SourceSystemSubKey>
+                <PartyName>PILS CO. LTD.</PartyName>
+                <PartyCountryCode> </PartyCountryCode>
+            </DPPartyToScreen>
+            <DPPartyToScreen>
+                <LinkageID>0</LinkageID>
+                <SourceSystemUniqueKey>SEL2301668</SourceSystemUniqueKey>
+                <SourceSystemSubKey>C</SourceSystemSubKey>
+                <PartyName>SHIP`S SPARES IN TRANSIT</PartyName>
+                <PartyCountryCode> </PartyCountryCode>
+            </DPPartyToScreen>
+            <DPPartyToScreen>
+                <LinkageID>0</LinkageID>
+                <SourceSystemUniqueKey>SEL2301668</SourceSystemUniqueKey>
+                <SourceSystemSubKey>N</SourceSystemSubKey>
+                <PartyName>WOODSIDE ENERGY LTD</PartyName>
+                <PartyCountryCode> </PartyCountryCode>
+            </DPPartyToScreen>
+            <DPPartyToScreen>
+                <LinkageID>0</LinkageID>
+                <SourceSystemUniqueKey>423306370NGB</SourceSystemUniqueKey>
+                <SourceSystemSubKey>VES</SourceSystemSubKey>
+                <PartyName>QI YUN HE</PartyName>
+                <CountryOfExport>CN</CountryOfExport>
+                <PartyCountryCode> </PartyCountryCode>
+            </DPPartyToScreen>
+            <DPPartyToScreen>
+                <LinkageID>0</LinkageID>
+                <SourceSystemUniqueKey>423306370NGB</SourceSystemUniqueKey>
+                <SourceSystemSubKey>S</SourceSystemSubKey>
+                <PartyName>NINGBO LUYAN TRADING CO. LTD</PartyName>
+                <PartyCountryCode> </PartyCountryCode>
+            </DPPartyToScreen>
+            <DPPartyToScreen>
+                <LinkageID>0</LinkageID>
+                <SourceSystemUniqueKey>423306370NGB</SourceSystemUniqueKey>
+                <SourceSystemSubKey>S</SourceSystemSubKey>
+                <PartyName>MONSTER ENERGY KOREA LTD</PartyName>
+                <PartyCountryCode> </PartyCountryCode>
+            </DPPartyToScreen>
+            <DPPartyToScreen>
+                <LinkageID>0</LinkageID>
+                <SourceSystemUniqueKey>423306370NGB</SourceSystemUniqueKey>
+                <SourceSystemSubKey>C</SourceSystemSubKey>
+                <PartyName>MONSTER ENERGY KOREA LTD</PartyName>
+                <PartyCountryCode> </PartyCountryCode>
+            </DPPartyToScreen>
+            <DPPartyToScreen>
+                <LinkageID>0</LinkageID>
+                <SourceSystemUniqueKey>423306370NGB</SourceSystemUniqueKey>
+                <SourceSystemSubKey>N</SourceSystemSubKey>
+                <PartyName>MONSTER ENERGY KOREA LTD</PartyName>
+                <PartyCountryCode> </PartyCountryCode>
+            </DPPartyToScreen>
+            <DPPartyToScreen>
+                <LinkageID>0</LinkageID>
+                <SourceSystemUniqueKey>SEL2301235</SourceSystemUniqueKey>
+                <SourceSystemSubKey>VES</SourceSystemSubKey>
+                <PartyName>YM TOPMOST</PartyName>
+                <CountryOfExport>KR</CountryOfExport>
+                <PartyCountryCode> </PartyCountryCode>
+            </DPPartyToScreen>
+            <DPPartyToScreen>
+                <LinkageID>0</LinkageID>
+                <SourceSystemUniqueKey>SEL2301235</SourceSystemUniqueKey>
+                <SourceSystemSubKey>S</SourceSystemSubKey>
+                <PartyName>HWASEUNG CORPORATION CO. LTD.</PartyName>
+                <PartyCountryCode> </PartyCountryCode>
+            </DPPartyToScreen>
+            <DPPartyToScreen>
+                <LinkageID>0</LinkageID>
+                <SourceSystemUniqueKey>SEL2301235</SourceSystemUniqueKey>
+                <SourceSystemSubKey>S</SourceSystemSubKey>
+                <PartyName>HWASEUNG CORPORATION CO. LTD.</PartyName>
+                <PartyCountryCode> </PartyCountryCode>
+            </DPPartyToScreen>
+            <DPPartyToScreen>
+                <LinkageID>0</LinkageID>
+                <SourceSystemUniqueKey>SEL2301235</SourceSystemUniqueKey>
+                <SourceSystemSubKey>C</SourceSystemSubKey>
+                <PartyName>TO THE ORDER OF SHIPPER</PartyName>
+                <PartyCountryCode> </PartyCountryCode>
+            </DPPartyToScreen>
+            <DPPartyToScreen>
+                <LinkageID>0</LinkageID>
+                <SourceSystemUniqueKey>SEL2301235</SourceSystemUniqueKey>
+                <SourceSystemSubKey>N</SourceSystemSubKey>
+                <PartyName>1) KURIYAMA OF AMERICA</PartyName>
+                <PartyCountryCode> </PartyCountryCode>
+            </DPPartyToScreen>
+            <DPPartyToScreen>
+                <LinkageID>0</LinkageID>
+                <SourceSystemUniqueKey>SEL2301236</SourceSystemUniqueKey>
+                <SourceSystemSubKey>VES</SourceSystemSubKey>
+                <PartyName>YM TOPMOST</PartyName>
+                <CountryOfExport>KR</CountryOfExport>
+                <PartyCountryCode> </PartyCountryCode>
+            </DPPartyToScreen>
+            <DPPartyToScreen>
+                <LinkageID>0</LinkageID>
+                <SourceSystemUniqueKey>SEL2301236</SourceSystemUniqueKey>
+                <SourceSystemSubKey>S</SourceSystemSubKey>
+                <PartyName>HWASEUNG CORPORATION CO. LTD.</PartyName>
+                <PartyCountryCode> </PartyCountryCode>
+            </DPPartyToScreen>
+            <DPPartyToScreen>
+                <LinkageID>0</LinkageID>
+                <SourceSystemUniqueKey>SEL2301236</SourceSystemUniqueKey>
+                <SourceSystemSubKey>S</SourceSystemSubKey>
+                <PartyName>HWASEUNG CORPORATION CO. LTD.</PartyName>
+                <PartyCountryCode> </PartyCountryCode>
+            </DPPartyToScreen>
+            <DPPartyToScreen>
+                <LinkageID>0</LinkageID>
+                <SourceSystemUniqueKey>SEL2301236</SourceSystemUniqueKey>
+                <SourceSystemSubKey>C</SourceSystemSubKey>
+                <PartyName>TO THE ORDER OF SHIPPER</PartyName>
+                <PartyCountryCode> </PartyCountryCode>
+            </DPPartyToScreen>
+            <DPPartyToScreen>
+                <LinkageID>0</LinkageID>
+                <SourceSystemUniqueKey>SEL2301236</SourceSystemUniqueKey>
+                <SourceSystemSubKey>N</SourceSystemSubKey>
+                <PartyName>1) KURIYAMA OF AMERICA</PartyName>
+                <PartyCountryCode> </PartyCountryCode>
+            </DPPartyToScreen>
+        </PartiesToScreen>
+    </DPScreeningRequest>
+</ArrayOfDPScreeningRequest>
