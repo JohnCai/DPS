@@ -8,8 +8,8 @@ import os
 
 currentDate = date.today() + timedelta(days=-1)
 batchStr = str(currentDate.strftime("%Y%m%d"))
-source_dir = batchStr
-target_dir = batchStr
+source_dir = os.path.join('Archive', batchStr)
+target_dir = os.path.join('Archive', batchStr)
 if os.path.exists(target_dir) == False:
     os.makedirs(target_dir)
 
